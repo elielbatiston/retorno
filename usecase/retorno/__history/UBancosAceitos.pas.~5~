@@ -1,0 +1,17 @@
+unit UBancosAceitos;
+
+interface
+
+type
+  type
+  TBanco = record
+    const
+      Sicoob   = 756;
+      Bradesco = 237;
+      Caixa    = 104;
+  end;
+
+
+implementation
+
+end.

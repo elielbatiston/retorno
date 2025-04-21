@@ -1,0 +1,19 @@
+unit URetornoGatewayFactory;
+
+interface
+
+uses URetornoGateway, URetornoSicoobGateway;
+
+type
+  TRetornoGatewayFactory = class
+  public
+    class function Instantiate(): IRetornoGateway;
+  end;
+implementation
+
+class function TRetornoGatewayFactory.Instantiate(): IRetornoGateway;
+begin
+  Result := TRetornoSicoobGateway.Create();
+end;
+
+end.

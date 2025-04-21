@@ -1,0 +1,17 @@
+unit UDomainException;
+
+interface
+
+uses
+  SysUtils;
+
+type
+  DomainException = class(Exception)
+  public
+    constructor Create(const Msg: string); reintroduce;
+  end;
+
+
+implementation
+
+end.

@@ -1,0 +1,14 @@
+unit UProcessarRetornoUseCase;
+
+interface
+
+uses UInputImportarArquivoRetornoDTO;
+
+type
+  IProcessarRetornoUseCase = interface
+    procedure Execute(AInput: TInputImportarArquivoRetornoDTO);
+  end;
+
+implementation
+
+end.

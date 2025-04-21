@@ -1,0 +1,47 @@
+unit UImportarArquivoRetornoUseCase;
+
+interface
+
+uses Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs, ExtCtrls, StdCtrls, Mask, rxToolEdit, UInputImportarArquivoRetornoDTO;
+
+type
+  TImportarArquivoRetornoUseCase = class
+  private
+    procedure Processar(AFilePath: string);
+  public
+    procedure Execute(AInput: TInputImportarArquivoRetornoDTO);
+  end;
+
+implementation
+
+uses UFuncoes, UDomainException, URetornoGateway, URetornoGatewayFactory,
+UFuncoesMySQL;
+
+procedure TImportarArquivoRetornoUseCase.Execute(AInput: TInputImportarArquivoRetornoDTO);
+var
+  gateway: IRetornoGateway;
+  dado: string;
+begin
+  dado := AInput.Dado();
+
+  if Empty(dado) then begin
+    raise TDomainException.Create('Dado informado está em branco');
+  end;
+
+  if not FileExists(filePath) then begin
+    raise TDomainException.Create('Arquivo informado não existe.');
+  end;
+
+  gateway := TRetornoGatewayFactory.Instantiate();
+
+  gateway.Importar(filePath);
+end;
+
+procedure TImportarArquivoRetornoUseCase.Processar(AFilePath: string);
+
+begin
+
+end;
+
+end.

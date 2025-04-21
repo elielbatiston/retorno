@@ -1,0 +1,26 @@
+unit UImportarArquivoRemessaUseCase;
+
+interface
+
+uses Strings, Dialogs, UInputImportarArquivoRemessaDTO;
+
+type
+  ImportarArquivoRemessaUseCase = class
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+    procedure execute(input: InputImportarArquivoRemessaDTO);
+  end;
+
+implementation
+
+procedure ImportarArquivoRemessaUseCase.execute(input: InputImportarArquivoRemessaDTO);
+begin
+  if Empty(input.getFilePath()) then begin
+    MessageBox(Handle, 'Arquivo informado não existe', 'Warning', mb_OK);
+  end;
+
+end;
+
+end.

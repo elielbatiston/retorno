@@ -1,0 +1,12 @@
+unit UInputImportarArquivoRemessaDTO;
+
+interface
+
+type
+  InputImportarArquivoRemessaDTO = class
+
+  end;
+
+implementation
+
+end.

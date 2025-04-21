@@ -1,0 +1,31 @@
+object DM: TDM
+  OldCreateOrder = False
+  OnCreate = DataModuleCreate
+  Height = 670
+  Width = 1476
+  object connection: TZConnection
+    ControlsCodePage = cCP_UTF16
+    Properties.Strings = (
+      'RawStringEncoding=DB_CP')
+    Connected = True
+    DisableSavepoints = False
+    HostName = 'localhost'
+    Port = 3306
+    Database = 'tagcomercio'
+    User = 'root'
+    Protocol = 'mysql'
+    Left = 184
+    Top = 80
+  end
+  object transaction: TZTransaction
+    Connection = connection
+    AutoCommit = True
+    Left = 224
+    Top = 80
+  end
+  object ZQuery1: TZQuery
+    Params = <>
+    Left = 208
+    Top = 280
+  end
+end

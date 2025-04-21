@@ -1,0 +1,922 @@
+                  SICOOB - Sistema de Cooperativas de Crédito do Brasil                   
+                   Plataforma de Serviços Financeiros do Sicoob - SISBR                   
+                                                                                          
+15/04/2025                        EXTRATO CONTA CORRENTE                          16:07:18
+------------------------------------------------------------------------------------------
+COOP...: 3125-9 - SICOOB AGROCREDI                                                        
+CONTA..: 2.739.263-5 - FAE TECNOLOGIA EM SEGURANCA LTDA                                   
+------------------------------------------------------------------------------------------
+   DATA         DOCUMENTO       HISTÓRICO                                            VALOR
+31/10/2024       2226657        TARIFA COBRANÇA                                    -13,44D
+31/10/2024       2225542        CRÉD.LIQUIDAÇÃO COBRANÇA                           750,66C
+31/10/2024         Pix          PIX RECEBIDO - OUTRA IF                            250,00C
+                                Recebimento Pix                                           
+                                ROSEMEIRE DE MATOS SILVEIRA                               
+                                ***.686.416-**                                            
+31/10/2024         Pix          PIX RECEBIDO - OUTRA IF                             80,00C
+                                Recebimento Pix                                           
+                                EDOARDO CARLO DANIELI                                     
+                                ***.777.598-**                                            
+31/10/2024      1128984490      CR COMPRAS CRE OUTRAS BANDEIRAS                     48,26C
+                                Stone Pagament_Cred._Elo                                  
+31/10/2024       26182934       DÉB.TIT.COMPE EFETIVADO                           -373,96D
+                                Supritec FT 60509/2                                       
+31/10/2024       26182891       DÉB.TIT.COMPE EFETIVADO                           -112,95D
+                                Modesto  6338078                                          
+                                SALDO DO DIA                                   282.185,69C
+30/10/2024       2224548        TARIFA COBRANÇA                                    -46,31D
+30/10/2024       2223783        CRÉD.LIQUIDAÇÃO COBRANÇA                           906,30C
+30/10/2024         Pix          PIX EMITIDO OUTRA IF                               -20,00D
+                                Pagamento Pix                                             
+                                19.629.488 0001-49                                        
+                                Filtro oleo moto branca 29 10                             
+30/10/2024         Pix          PIX RECEBIDO - OUTRA IF                            100,00C
+                                Recebimento Pix                                           
+                                MARCELO BAR PEIXOTO                                       
+                                ***.201.577-**                                            
+30/10/2024      1128226804      CR COMPRAS MASTERCARD                            1.328,94C
+                                Stone Pagament_Cred._Mastercard                           
+30/10/2024       26182844       DÉB.TIT.COMPE EFETIVADO                           -543,05D
+                                Supritec TM  12250/02                                     
+30/10/2024       26182824       DÉB.TIT.COMPE EFETIVADO                           -213,11D
+                                Modesto 6334411                                           
+30/10/2024       26182784       DÉB.TIT.COMPE EFETIVADO                           -134,33D
+                                Zurich funcionários                                       
+                                SALDO DO DIA                                   281.557,12C
+29/10/2024       2222702        TARIFA COBRANÇA                                    -14,11D
+29/10/2024       2221753        CRÉD.LIQUIDAÇÃO COBRANÇA                         4.357,12C
+29/10/2024         Pix          PIX EMITIDO OUTRA IF                               -36,00D
+                                Pagamento Pix                                             
+                                19.629.488 0001-49                                        
+                                Oleo moto branca 29 10                                    
+29/10/2024      0003ATM         SAQUE SEM CARTÃO                                -1.700,00D
+                                SAQ.DIG. NOME: FAE TECNOLOGIA EM SEGURAN                  
+29/10/2024      1127577424      CR COMPRAS MASTERCARD                              425,26C
+                                Stone Pagament_Cred._Mastercard                           
+29/10/2024      1127826830      CR COMPRAS DEB OUTRAS BANDEIRAS                      9,75C
+                                Stone Pagament_Deb._Elo Débito                            
+29/10/2024      1127826829      CR COMPRAS VISA ELECTRON                            58,88C
+                                Stone Pagament_Deb._Visa Electron                         
+29/10/2024      1127826828      CR COMPRAS MAESTRO                                  98,14C
+                                Stone Pagament_Deb._Maestro                               
+29/10/2024       26182673       DÉB.TIT.COMPE EFETIVADO                         -1.425,00D
+                                Minas System 6512/03                                      
+29/10/2024       26182650       DÉB.TIT.COMPE EFETIVADO                           -407,88D
+                                Supritec FT 60400/02                                      
+                                SALDO DO DIA                                   280.178,68C
+28/10/2024       2220569        TARIFA COBRANÇA                                    -17,47D
+28/10/2024       2219654        CRÉD.LIQUIDAÇÃO COBRANÇA                         1.947,81C
+28/10/2024         Pix          PIX EMITIDO OUTRA IF                              -300,00D
+                                Pagamento Pix                                             
+                                ***.231.416-**                                            
+28/10/2024         Pix          PIX RECEBIDO - OUTRA IF                             85,00C
+                                Recebimento Pix                                           
+                                WALESKA CAMACHO                                           
+                                ***.784.086-**                                            
+28/10/2024         Pix          PIX RECEBIDO - OUTRA IF                             80,00C
+                                Recebimento Pix                                           
+                                JGG CLINICA DE OLHOS                                      
+                                23.882.397 0001-98                                        
+28/10/2024       26182554       DÉB.TIT.COMPE EFETIVADO                         -1.764,26D
+                                Supritec FT 58518 03                                      
+28/10/2024       26182491       DÉB.TIT.COMPE EFETIVADO                         -1.339,21D
+                                Supritec FT  60282 2                                      
+28/10/2024       26182459       DÉB.TIT.COMPE EFETIVADO                           -290,00D
+                                Supritec FT 56869 04                                      
+28/10/2024       26182413       DÉB.TIT.COMPE EFETIVADO                           -197,62D
+                                Supritec FT  60374 1                                      
+28/10/2024       26181816       DÉB.TRANSF.CONTAS DIF.TIT. INTERCREDIS            -220,50D
+                                FAV.: ANDERSON LUIZ CRUZ                                  
+                                Transferência Pix                                         
+                                FAE TECNOLOGIA EM SEGURANCA LTDA                          
+                                04.871.831 0001-90                                        
+                                Porc imob alug monitoramento                              
+28/10/2024         Pix          PIX EMITIDO OUTRA IF                            -3.139,80D
+                                Pagamento Pix                                             
+                                ***.270.378-**                                            
+                                Aluguel monitoramento                                     
+28/10/2024         Pix          PIX RECEBIDO - OUTRA IF                            225,00C
+                                Recebimento Pix                                           
+                                ABGAIL LACERDA OLIVEIRA                                   
+                                ***.170.606-**                                            
+28/10/2024         Pix          PIX RECEBIDO - OUTRA IF                            400,00C
+                                Recebimento Pix                                           
+                                CAMILA DE FATIMA PEREIRA                                  
+                                ***.543.756-**                                            
+28/10/2024      1126546335      CR COMPRAS MASTERCARD                                9,69C
+                                Stone Pagament_Cred._Mastercard                           
+28/10/2024         Pix          PIX EMITIDO OUTRA IF                               -60,00D
+                                Pagamento Pix                                             
+                                ***.931.756-**                                            
+28/10/2024         Pix          PIX EMITIDO OUTRA IF                              -534,00D
+                                Pagamento Pix                                             
+                                19.629.488 0001-49                                        
+                                Moto vermelha                                             
+                                SALDO DO DIA                                   278.812,52C
+25/10/2024       2218616        TARIFA COBRANÇA                                    -12,99D
+25/10/2024       2217880        CRÉD.LIQUIDAÇÃO COBRANÇA                         6.167,02C
+25/10/2024       26161100       DÉB.TIT.COMPE EFETIVADO                         -4.520,31D
+                                Moni Software 196425-9                                    
+25/10/2024       26161078       DÉB.TIT.COMPE EFETIVADO                         -1.349,40D
+                                Minas System  6577 02                                     
+25/10/2024       26161053       DÉB.TIT.COMPE EFETIVADO                           -369,00D
+                                Alpha Abras 65848 - 1                                     
+25/10/2024       26161027       DÉB.TIT.COMPE EFETIVADO                           -233,00D
+                                Supritec FT  60132 2                                      
+25/10/2024       26161009       DÉB.CONV.PREFEITURA                                 -4,89D
+                                ISSQN                                                     
+25/10/2024         Pix          PIX RECEBIDO - OUTRA IF                            150,00C
+                                Recebimento Pix                                           
+                                JOSE EUGENIO MIGLIORANZI                                  
+                                ***.117.336-**                                            
+                                SALDO DO DIA                                   283.927,88C
+24/10/2024       2216902        TARIFA COBRANÇA                                     -6,72D
+24/10/2024       2216125        CRÉD.LIQUIDAÇÃO COBRANÇA                         6.773,79C
+24/10/2024         Pix          PIX RECEBIDO - OUTRA IF                            100,00C
+                                Recebimento Pix                                           
+                                ANTONIO CAJADO DA SILVA                                   
+                                ***.695.703-**                                            
+24/10/2024         Pix          PIX RECEBIDO - OUTRA IF                            700,00C
+                                Recebimento Pix                                           
+                                CLAUDIA F G SEGUSO                                        
+                                ***.883.686-**                                            
+24/10/2024         Pix          PIX RECEBIDO - OUTRA IF                             60,00C
+                                Recebimento Pix                                           
+                                Alexandre Dias da Silva                                   
+                                ***.140.906-**                                            
+24/10/2024      0003ATM         SAQUE SEM CARTÃO                                  -700,00D
+                                SAQ.DIG. NOME: FAE TECNOLOGIA EM SEGURAN                  
+24/10/2024         Pix          PIX RECEBIDO - OUTRA IF                             95,00C
+                                Recebimento Pix                                           
+                                Jose Miguel Escudero Rivera                               
+                                ***.200.838-**                                            
+24/10/2024      1125437238      CR COMPRAS MAESTRO                                 343,49C
+                                Stone Pagament_Deb._Maestro                               
+24/10/2024      1125437237      CR COMPRAS DEB OUTRAS BANDEIRAS                     48,77C
+                                Stone Pagament_Deb._Elo Débito                            
+24/10/2024       26129750       DÉB.TIT.COMPE EFETIVADO                         -1.443,80D
+                                Supritec FT 53210/05                                      
+24/10/2024       26129705       DÉB.TIT.COMPE EFETIVADO                           -166,66D
+                                Supritec 56729/04                                         
+                                SALDO DO DIA                                   284.100,45C
+23/10/2024       2215116        TARIFA COBRANÇA                                    -16,11D
+23/10/2024       2214326        CRÉD.LIQUIDAÇÃO COBRANÇA                         2.080,10C
+23/10/2024       26129625       DÉB.TIT.COMPE EFETIVADO                           -563,50D
+                                Minas System 6497 03                                      
+23/10/2024         Pix          PIX EMITIDO OUTRA IF                            -2.000,00D
+                                Pagamento Pix                                             
+                                ***.812.616-**                                            
+                                Adiantamento decimo terceiro                              
+23/10/2024         Pix          PIX RECEBIDO - OUTRA IF                          1.125,00C
+                                Recebimento Pix                                           
+                                JPR DESENVOLVIMENTO                                       
+                                32.604.794 0001-99                                        
+                                NFe-2468 Conector e Cabo de Rede                          
+23/10/2024         Pix          PIX RECEBIDO - OUTRA IF                             80,00C
+                                Recebimento Pix                                           
+                                JPR DESENVOLVIMENTO                                       
+                                32.604.794 0001-99                                        
+                                NFe-2467 Controle de Portao Eletronico                    
+23/10/2024       26123283       DÉB.TRANSF.CONTAS DIF.TITULARIDADE              -5.000,00D
+                                FAV.: ELIEZER BATISTON DE OLIVEIRA                        
+23/10/2024         Pix          PIX RECEBIDO - OUTRA IF                            250,00C
+                                Recebimento Pix                                           
+                                WILMA AZEVEDO SALES ZINCONE                               
+                                ***.923.336-**                                            
+                                Conserto portao eletronico                                
+23/10/2024      1124781803      CR COMPRAS MAESTRO                                   9,81C
+                                Stone Pagament_Deb._Maestro                               
+                                SALDO DO DIA                                   278.296,58C
+22/10/2024       2213072        TARIFA COBRANÇA                                    -30,68D
+22/10/2024       2211867        CRÉD.LIQUIDAÇÃO COBRANÇA                         9.182,78C
+22/10/2024         Pix          PIX EMITIDO OUTRA IF                               -80,00D
+                                Pagamento Pix                                             
+                                ***.569.386-**                                            
+                                Limpeza monitoramento                                     
+22/10/2024       26119841       DÉB.TIT.COMPE EFETIVADO                         -1.776,35D
+                                Supritec FT 54939 5                                       
+22/10/2024       26119783       DÉB.TIT.COMPE EFETIVADO                           -244,68D
+                                Modesto  0006269653                                       
+22/10/2024       26119746       DÉB.TIT.COMPE EFETIVADO                           -183,33D
+                                Supritec FT  56528 04                                     
+22/10/2024       26119636       TRANSF.REALIZADA PIX SICOOB                       -700,00D
+                                FAV.: WILLIAM BATISTON RODRIGUES                          
+                                Transferência Pix                                         
+                                FAE TECNOLOGIA EM SEGURANCA LTDA                          
+                                04.871.831 0001-90                                        
+                                William Batiston                                          
+22/10/2024         Pix          PIX RECEBIDO - OUTRA IF                             30,00C
+                                Recebimento Pix                                           
+                                PAULO SERGIO GUILHERME                                    
+                                ***.049.956-**                                            
+22/10/2024      1123805512      CR COMPRAS MASTERCARD                              596,81C
+                                Stone Pagament_Cred._Mastercard                           
+22/10/2024      1124147133      CR COMPRAS VISA ELECTRON                             9,81C
+                                Stone Pagament_Deb._Visa Electron                         
+                                SALDO DO DIA                                   282.331,28C
+21/10/2024       2210615        TARIFA COBRANÇA                                    -12,99D
+21/10/2024       2209665        CRÉD.LIQUIDAÇÃO COBRANÇA                         5.410,42C
+21/10/2024         Pix          PIX RECEBIDO - OUTRA IF                             30,00C
+                                Recebimento Pix                                           
+                                YASMIM OLIVEIRA DE ALMEIDA                                
+                                ***.331.337-**                                            
+21/10/2024       26092171       DÉB.CONV.TRIBUTOS FEDERAIS - RFB               -20.235,72D
+                                DAS NACIONAL                                              
+21/10/2024       26089930       TRANSF.REALIZADA PIX SICOOB                     -5.000,00D
+                                FAV.: ELIEZER BATISTON DE OLIVEIRA                        
+                                Transferência Pix                                         
+                                FAE TECNOLOGIA EM SEGURANCA LTDA                          
+                                04.871.831 0001-90                                        
+21/10/2024       26087344       DÉB.TIT.COMPE EFETIVADO                           -827,93D
+                                Ceitel 211973 - 2                                         
+21/10/2024       26087304       DÉB.TIT.COMPE EFETIVADO                           -295,73D
+                                Supritec FT  58389 03                                     
+21/10/2024       26087228       DÉB.CONV.TELECOMUNICAÇÕES                         -114,95D
+                                Algar Nóbilis                                             
+21/10/2024       26087195       DÉB.CONV.TELECOMUNICAÇÕES                         -108,93D
+                                Vivo                                                      
+21/10/2024       26087122       DÉB.TIT.COMPE EFETIVADO                           -851,87D
+                                Supritec FT 54675 5                                       
+21/10/2024       26087088       DÉB.TIT.COMPE EFETIVADO                           -411,70D
+                                Link Solutions 148031                                     
+21/10/2024       26087054       DÉB.TIT.COMPE EFETIVADO                           -324,87D
+                                Supritec FT 58263 03                                      
+21/10/2024       26086876       DÉB.CONV.SANEAMENTO                               -125,84D
+                                DMAE loja                                                 
+21/10/2024       26086817       DÉB.CONV.SANEAMENTO                                -86,78D
+                                DMAE MONITORAMENTO                                        
+21/10/2024       26086745       DÉB.TÍTULO COBRANÇA                               -580,00D
+                                Contabilidade 09 12                                       
+21/10/2024         Pix          PIX EMITIDO OUTRA IF                              -800,00D
+                                Pagamento Pix                                             
+                                ***.183.916-**                                            
+                                Adiantamento William                                      
+21/10/2024      1328464266      DÉB.TRANSF.POUPANÇA-INTERCREDIS                   -700,00D
+                                3125 - 631397329                                          
+                                WAINE RODRIGO DA SILVA                                    
+21/10/2024         Pix          PIX EMITIDO OUTRA IF                              -700,00D
+                                Pagamento Pix                                             
+                                ***.812.616-**                                            
+                                Adiantamento Thayla                                       
+21/10/2024         Pix          PIX EMITIDO OUTRA IF                              -500,00D
+                                Pagamento Pix                                             
+                                ***.870.766-**                                            
+                                Adiantamento Tamires                                      
+21/10/2024         Pix          PIX EMITIDO OUTRA IF                              -800,00D
+                                Pagamento Pix                                             
+                                ***.303.316-**                                            
+                                Adiantamento Rodrigo                                      
+21/10/2024         Pix          PIX EMITIDO OUTRA IF                              -400,00D
+                                Pagamento Pix                                             
+                                ***.813.596-**                                            
+                                Adiantamento Raone                                        
+21/10/2024         Pix          PIX RECEBIDO - OUTRA IF                            700,00C
+                                Recebimento Pix                                           
+                                Josiel dos Santos Fernandes                               
+                                ***.501.516-**                                            
+21/10/2024         Pix          PIX EMITIDO OUTRA IF                              -700,00D
+                                Pagamento Pix                                             
+                                ***.350.476-**                                            
+                                Adiantamento Plinio                                       
+21/10/2024         Pix          PIX EMITIDO OUTRA IF                              -500,00D
+                                Pagamento Pix                                             
+                                ***.440.696-**                                            
+                                Adiantamento Luis Guilherme                               
+21/10/2024         Pix          PIX EMITIDO OUTRA IF                              -600,00D
+                                Pagamento Pix                                             
+                                ***.269.576-**                                            
+                                Adiantamento Lucas Goulart                                
+21/10/2024         Pix          PIX RECEBIDO - OUTRA IF                            580,00C
+                                Recebimento Pix                                           
+                                MARIA HELENA GUIMARAES                                    
+                                ***.640.766-**                                            
+21/10/2024         Pix          PIX EMITIDO OUTRA IF                            -1.500,00D
+                                Pagamento Pix                                             
+                                ***.368.336-**                                            
+                                Adiantamento Lucas                                        
+21/10/2024         Pix          PIX EMITIDO OUTRA IF                              -600,00D
+                                Pagamento Pix                                             
+                                ***.861.086-**                                            
+                                Adiantamento Julia                                        
+21/10/2024         Pix          PIX EMITIDO OUTRA IF                              -700,00D
+                                Pagamento Pix                                             
+                                ***.501.516-**                                            
+                                Adiantamento Josiel                                       
+21/10/2024         Pix          PIX EMITIDO OUTRA IF                              -500,00D
+                                Pagamento Pix                                             
+                                ***.256.816-**                                            
+                                Adiantamento Joao Victor                                  
+21/10/2024         Pix          PIX EMITIDO OUTRA IF                              -800,00D
+                                Pagamento Pix                                             
+                                ***.592.096-**                                            
+                                Adiantamento Joao Gabriel                                 
+21/10/2024         Pix          PIX EMITIDO OUTRA IF                            -1.000,00D
+                                Pagamento Pix                                             
+                                ***.019.398-**                                            
+                                Adiantamento Jeverson                                     
+21/10/2024         Pix          PIX EMITIDO OUTRA IF                            -1.050,00D
+                                Pagamento Pix                                             
+                                ***.429.246-**                                            
+                                Adiantamento Erickson                                     
+21/10/2024         Pix          PIX EMITIDO OUTRA IF                              -800,00D
+                                Pagamento Pix                                             
+                                ***.200.756-**                                            
+                                Adiantamento Dani                                         
+21/10/2024         Pix          PIX EMITIDO OUTRA IF                              -500,00D
+                                Pagamento Pix                                             
+                                ***.156.451-**                                            
+                                Adiantamento Beatriz                                      
+21/10/2024         Pix          PIX EMITIDO OUTRA IF                              -800,00D
+                                Pagamento Pix                                             
+                                ***.056.356-**                                            
+                                Adiantamento Almir                                        
+21/10/2024         Pix          PIX EMITIDO OUTRA IF                              -700,00D
+                                Pagamento Pix                                             
+                                ***.138.028-**                                            
+                                Adiantamento Alison                                       
+21/10/2024      1122831700      CR COMPRAS VISA                                     48,44C
+                                Stone Pagament_Cred._Visa                                 
+21/10/2024      1122831699      CR COMPRAS MASTERCARD                               82,36C
+                                Stone Pagament_Cred._Mastercard                           
+21/10/2024      1123169689      CR COMPRAS MAESTRO                                  83,42C
+                                Stone Pagament_Deb._Maestro                               
+21/10/2024         Pix          PIX RECEBIDO - OUTRA IF                             50,00C
+                                Recebimento Pix                                           
+                                GABRIEL HENRIQUE BARBOSA                                  
+                                ***.446.536-**                                            
+                                SALDO DO DIA                                   275.526,92C
+18/10/2024       2208542        TARIFA COBRANÇA                                    -21,95D
+18/10/2024       2207705        CRÉD.LIQUIDAÇÃO COBRANÇA                        11.390,74C
+18/10/2024         Pix          PIX RECEBIDO - OUTRA IF                             10,00C
+                                Recebimento Pix                                           
+                                LUIZ ANTONIO BUENO JUNIOR                                 
+                                ***.423.326-**                                            
+18/10/2024         Pix          PIX EMITIDO OUTRA IF                            -5.086,04D
+                                Pagamento Pix                                             
+                                00.394.460 0058-87                                        
+18/10/2024         Pix          PIX EMITIDO OUTRA IF                            -3.896,75D
+                                Pagamento Pix                                             
+                                00.360.305 0001-04                                        
+18/10/2024       26060563       DÉB.TIT.COMPE EFETIVADO                           -289,00D
+                                Modesto 6314633                                           
+18/10/2024       26060536       DÉB.TIT.COMPE EFETIVADO                           -194,02D
+                                Modesto  6314508                                          
+18/10/2024         Pix          PIX RECEBIDO - OUTRA IF                             80,00C
+                                Recebimento Pix                                           
+                                COYOTE TAP HOUS                                           
+                                43.886.164 0001-70                                        
+                                SALDO DO DIA                                   312.169,59C
+17/10/2024       2206617        TARIFA COBRANÇA                                     -7,84D
+17/10/2024       2205733        CRÉD.LIQUIDAÇÃO COBRANÇA                         1.605,36C
+17/10/2024       26044260       DÉB.TIT.COMPE EFETIVADO                         -1.085,01D
+                                Ata ht813                                                 
+17/10/2024         Pix          PIX RECEBIDO - OUTRA IF                             30,00C
+                                Recebimento Pix                                           
+                                Luis Henrique de Podesta Zani                             
+                                ***.963.616-**                                            
+17/10/2024      59              SAQUE NA AGENCIA                                -1.000,00D
+17/10/2024       26040486       DÉB.CONV.TELECOMUNICAÇÕES                         -640,26D
+                                Vivo                                                      
+17/10/2024         Pix          PIX RECEBIDO - OUTRA IF                             95,00C
+                                Recebimento Pix                                           
+                                Marcio Dias Cpf: 039.662.06633                            
+                                44.280.924 0001-64                                        
+                                Controle portao rua Lavras                                
+17/10/2024         Pix          PIX EMITIDO OUTRA IF                            -2.000,00D
+                                Pagamento Pix                                             
+                                ***.368.336-**                                            
+                                Adiantamento 13                                           
+17/10/2024      1121409701      CR COMPRAS MASTERCARD                                9,69C
+                                Stone Pagament_Cred._Mastercard                           
+17/10/2024       26023637       DÉB.TIT.COMPE EFETIVADO                           -188,53D
+                                Baterias Moura C                                          
+                                SALDO DO DIA                                   310.176,61C
+16/10/2024       2204544        TARIFA COBRANÇA                                    -31,57D
+16/10/2024       2203476        CRÉD.LIQUIDAÇÃO COBRANÇA                        10.012,74C
+16/10/2024         Pix          PIX EMITIDO OUTRA IF                               -80,00D
+                                Pagamento Pix                                             
+                                ***.569.386-**                                            
+                                Limpeza monitoramento                                     
+16/10/2024         Pix          PIX RECEBIDO - OUTRA IF                            333,33C
+                                Recebimento Pix                                           
+                                UMMA MODA FEMININA LTDA                                   
+                                30.933.760 0001-12                                        
+                                Parcela 1- DVR                                            
+16/10/2024         Pix          PIX RECEBIDO - OUTRA IF                             80,00C
+                                Recebimento Pix                                           
+                                WESLEY RODRIGO BARBOSA MENDES                             
+                                ***.620.676-**                                            
+16/10/2024         Pix          PIX RECEBIDO - OUTRA IF                             10,00C
+                                Recebimento Pix                                           
+                                JANETE MARY BAACLINI GALANTE SEVERINI                     
+                                ***.555.578-**                                            
+16/10/2024       26023490       DÉB.TIT.COMPE EFETIVADO                           -646,53D
+                                Supritec FT 54367 5                                       
+16/10/2024       26023042       DÉB.TIT.COMPE EFETIVADO                           -238,68D
+                                Supritec FT 56327 3                                       
+16/10/2024         3171         CRED.TRANSF.CONTAS INTERCREDIS                     250,00C
+                                REM.: TEX WORK UNIFORMES PROFISSIONAIS E                  
+                                Transferência Pix                                         
+                                TEX WORK UNIFORMES PROFISSIONAIS E EPI S                  
+                                18.975.891 0001-67                                        
+                                SALDO DO DIA                                   313.358,20C
+15/10/2024       2202177        TARIFA COBRANÇA                                    -22,62D
+15/10/2024       2201053        CRÉD.LIQUIDAÇÃO COBRANÇA                        10.859,98C
+15/10/2024         Pix          PIX EMITIDO OUTRA IF                              -420,00D
+                                Pagamento Pix                                             
+                                ***.055.176-**                                            
+                                Eletrica Fiorino antiga                                   
+15/10/2024         Pix          PIX RECEBIDO - OUTRA IF                             60,00C
+                                Recebimento Pix                                           
+                                ARTUR ANDRADE MARTINS                                     
+                                ***.758.316-**                                            
+15/10/2024         Pix          PIX RECEBIDO - OUTRA IF                            875,00C
+                                Recebimento Pix                                           
+                                JPR DESENVOLVIMENTO                                       
+                                32.604.794 0001-99                                        
+                                NFSe-100017909 Cabeamento                                 
+15/10/2024         Pix          PIX EMITIDO OUTRA IF                              -280,00D
+                                Pagamento Pix                                             
+                                35.109.019 0001-55                                        
+                                Fech Aquarius                                             
+15/10/2024         Pix          PIX EMITIDO OUTRA IF                              -500,00D
+                                Pagamento Pix                                             
+                                35.109.019 0001-55                                        
+                                Geovane flor de lotus                                     
+15/10/2024         Pix          PIX RECEBIDO - OUTRA IF                          6.000,00C
+                                Recebimento Pix                                           
+                                CONDOMINIO RESIDENCIAL VARANDAS DO VALE                   
+                                37.408.418 0001-42                                        
+                                Implementacao Equip Seguranca2                            
+15/10/2024         Pix          PIX EMITIDO OUTRA IF                              -116,00D
+                                Pagamento Pix                                             
+                                26.520.616 0001-87                                        
+                                Dif Posto Pampa                                           
+15/10/2024         Pix          PIX RECEBIDO - OUTRA IF                            395,00C
+                                Recebimento Pix                                           
+                                CONTABILIZE CONTABILIDADE LTDA                            
+                                56.064.324 0001-48                                        
+15/10/2024         Pix          PIX RECEBIDO - OUTRA IF                             30,00C
+                                Recebimento Pix                                           
+                                Lucas da Cunha Fernandes Guimaraes                        
+                                ***.353.936-**                                            
+15/10/2024         Pix          PIX RECEBIDO - OUTRA IF                            120,00C
+                                Recebimento Pix                                           
+                                NOVA CONQUISTA LTDA                                       
+                                03.565.349 0001-69                                        
+15/10/2024         Pix          PIX EMITIDO OUTRA IF                              -358,50D
+                                Pagamento Pix                                             
+                                ***.933.286-**                                            
+                                DeD 1305 2 2                                              
+15/10/2024         Pix          PIX EMITIDO OUTRA IF                               -36,00D
+                                Pagamento Pix                                             
+                                19.629.488 0001-49                                        
+                                Emanuel 862                                               
+15/10/2024         Pix          PIX EMITIDO OUTRA IF                            -1.280,00D
+                                Pagamento Pix                                             
+                                ***.584.688-**                                            
+                                Aluguel loja                                              
+                                SALDO DO DIA                                   303.668,91C
+14/10/2024       2199740        TARIFA COBRANÇA                                     -8,96D
+14/10/2024       2198782        CRÉD.LIQUIDAÇÃO COBRANÇA                         5.156,81C
+14/10/2024         Pix          PIX RECEBIDO - OUTRA IF                             30,00C
+                                Recebimento Pix                                           
+                                CLEITON MARTINS                                           
+                                ***.746.706-**                                            
+14/10/2024       25984702       DÉB.TIT.COMPE EFETIVADO                           -265,66D
+                                Modesto  6307775                                          
+14/10/2024       25984650       DÉB.TIT.COMPE EFETIVADO                           -204,40D
+                                Supritec FT 56049 4                                       
+14/10/2024       25984353       DÉB.TIT.COMPE EFETIVADO                           -172,74D
+                                Modesto 1010530203                                        
+14/10/2024      1119016463      CR COMPRAS MASTERCARD                              106,58C
+                                Stone Pagament_Cred._Mastercard                           
+                                SALDO DO DIA                                   288.342,05C
+11/10/2024       2197482        TARIFA COBRANÇA                                    -29,12D
+11/10/2024       2196297        CRÉD.LIQUIDAÇÃO COBRANÇA                        16.103,49C
+11/10/2024        058264        COMPRA MASTERCARD MAESTRO                          -10,70D
+                                CONCESSIONARIA ROTA DO SANTO AGOSTIN BRA                  
+11/10/2024         Pix          PIX RECEBIDO - OUTRA IF                            100,00C
+                                Recebimento Pix                                           
+                                TULIO LUIZ BAGATINI JUNIOR                                
+                                ***.182.068-**                                            
+11/10/2024       25965473       TRANSF.RECEBIDA - PIX SICOOB                        50,00C
+                                REM.: MARIA BERNADETE DE OLIVEIRA                         
+                                Transferência Pix                                         
+                                MARIA BERNADETE DE OLIVEIRA                               
+                                ***.368.726-**                                            
+11/10/2024       25964159       DÉB.TRANSF.CONTAS DIF.TITULARIDADE              -5.000,00D
+                                FAV.: ELIEZER BATISTON DE OLIVEIRA                        
+11/10/2024        787506        COMPRA MASTERCARD MAESTRO                          -10,70D
+                                CONCESSIONARIA ROTA DO SANTO AGOSTIN BRA                  
+11/10/2024         Pix          PIX RECEBIDO - OUTRA IF                             80,00C
+                                Recebimento Pix                                           
+                                MILTON LUIS BERNARDES - ME                                
+                                22.395.350 0001-37                                        
+11/10/2024      1118323050      CR COMPRAS MASTERCARD                               48,44C
+                                Stone Pagament_Cred._Mastercard                           
+11/10/2024      1118664681      CR COMPRAS VISA ELECTRON                            58,88C
+                                Stone Pagament_Deb._Visa Electron                         
+11/10/2024      1118664680      CR COMPRAS MAESTRO                                  49,07C
+                                Stone Pagament_Deb._Maestro                               
+11/10/2024       25697151       DÉB.TIT.COMPE EFETIVADO                           -570,00D
+                                Baterias Moura 70982                                      
+11/10/2024       25697133       DÉB.TIT.COMPE EFETIVADO                           -446,71D
+                                Supritec FT 55976/4                                       
+11/10/2024       25697074       DÉB.CONV.TELECOMUNICAÇÕES                         -219,89D
+                                Algar                                                     
+11/10/2024       25697061       DÉB.TIT.COMPE EFETIVADO                           -149,50D
+                                Supritec FT  57701/2                                      
+11/10/2024       25697045       DÉB.TIT. COBRANÇA EFETIVADO                       -115,80D
+                                We care 7146 10/12                                        
+                                SALDO DO DIA                                   283.700,42C
+10/10/2024       2194989        TARIFA COBRANÇA                                    -12,32D
+10/10/2024       2193974        CRÉD.LIQUIDAÇÃO COBRANÇA                         3.076,51C
+10/10/2024         Pix          PIX RECEBIDO - OUTRA IF                             50,00C
+                                Recebimento Pix                                           
+                                PAULO MARCIO FIUZA PALMELA                                
+                                ***.097.256-**                                            
+10/10/2024       25933197       TRANSF.RECEBIDA - PIX SICOOB                        18,00C
+                                REM.: PAULO JOEL DE MORAES                                
+                                Transferência Pix                                         
+                                PAULO JOEL DE MORAES                                      
+                                03.242.185 0001-39                                        
+10/10/2024      1117623348      CR COMPRAS MASTERCARD                               48,44C
+                                Stone Pagament_Cred._Mastercard                           
+10/10/2024      1117890217      CR COMPRAS MAESTRO                                   9,81C
+                                Stone Pagament_Deb._Maestro                               
+10/10/2024       25929549       DÉB.TIT.COMPE EFETIVADO                           -194,00D
+                                Condfy                                                    
+10/10/2024       25771729       DÉB.TIT.COMPE EFETIVADO                           -103,01D
+                                Seguro moto cinza 02                                      
+10/10/2024       25771685       DÉB.TIT.COMPE EFETIVADO                            -89,55D
+                                Seguro moto branca 02                                     
+10/10/2024       25697016       DÉB.TIT.COMPE EFETIVADO                           -505,95D
+                                Baterias Moura 010072702                                  
+10/10/2024       25696968       DÉB.TIT.COMPE EFETIVADO                           -337,30D
+                                Baterias Moura  1/3                                       
+10/10/2024       25696892       DÉB.CONV.PREFEITURA                                -87,29D
+                                IPTU loja 7/9                                             
+                                SALDO DO DIA                                   273.762,96C
+09/10/2024       2192735        TARIFA COBRANÇA                                    -94,51D
+09/10/2024       2191770        CRÉD.LIQUIDAÇÃO COBRANÇA                         2.029,68C
+09/10/2024         Pix          PIX EMITIDO OUTRA IF                              -721,00D
+                                Pagamento Pix                                             
+                                78.323.094 0001-27                                        
+                                Controles Cs                                              
+09/10/2024       25916076       TRANSF.RECEBIDA - PIX SICOOB                        20,00C
+                                REM.: JULIANA HELENA FERREIRA GONCALVES                   
+                                Transferência Pix                                         
+                                JULIANA HELENA FERREIRA GONCALVES PAES                    
+                                ***.114.196-**                                            
+09/10/2024      1117244324      CR COMPRAS MAESTRO                                   9,81C
+                                Stone Pagament_Deb._Maestro                               
+09/10/2024      1117244323      CR COMPRAS VISA ELECTRON                           112,86C
+                                Stone Pagament_Deb._Visa Electron                         
+09/10/2024       25696868       DÉB.TIT.COMPE EFETIVADO                         -1.265,00D
+                                Supritec FT  55814/4                                      
+                                SALDO DO DIA                                   271.889,62C
+08/10/2024       2190380        TARIFA COBRANÇA                                   -153,51D
+08/10/2024       2189118        CRÉD.LIQUIDAÇÃO COBRANÇA                        14.310,03C
+08/10/2024         Pix          PIX RECEBIDO - OUTRA IF                          2.037,00C
+                                Recebimento Pix                                           
+                                MINAS SUL TRANSPORTES LTDA                                
+                                01.618.978 0001-84                                        
+08/10/2024         Pix          PIX RECEBIDO - OUTRA IF                             70,00C
+                                Recebimento Pix                                           
+                                LUCINEIA PESSOA DOS SANTOS                                
+                                ***.269.606-**                                            
+08/10/2024         Pix          PIX RECEBIDO - OUTRA IF                            248,17C
+                                Recebimento Pix                                           
+                                ASSOCIACAO DESPORTIVA CLASSISTA A. POCOS                  
+                                17.855.339 0001-72                                        
+                                FAE TECNOLOGIA EM SEGURANCA                               
+08/10/2024         Pix          PIX RECEBIDO - OUTRA IF                             70,00C
+                                Recebimento Pix                                           
+                                Victor Augusto da Fonseca Silva                           
+                                ***.097.726-**                                            
+08/10/2024         Pix          PIX RECEBIDO - OUTRA IF                            850,00C
+                                Recebimento Pix                                           
+                                MCR O S SIMPLES LTDA                                      
+                                10.743.173 0001-53                                        
+08/10/2024       25817286       DÉB.TIT. COBRANÇA EFETIVADO                     -2.100,00D
+                                Alessandro Trevisan 009                                   
+08/10/2024       25696824       DÉB.CONV.EN.ELÉTRICA E GÁS                        -183,36D
+                                DME loja                                                  
+                                SALDO DO DIA                                   271.797,78C
+07/10/2024       2187751        TARIFA COBRANÇA                                    -14,11D
+07/10/2024       2186742        CRÉD.LIQUIDAÇÃO COBRANÇA                         2.030,45C
+07/10/2024         Pix          PIX RECEBIDO - OUTRA IF                             30,00C
+                                Recebimento Pix                                           
+                                THAINA VILELA RIBEIRO DA SILVA                            
+                                ***.803.326-**                                            
+07/10/2024         Pix          PIX RECEBIDO - OUTRA IF                             50,00C
+                                Recebimento Pix                                           
+                                50.994.545 KAMILA GONCALVES MARTINS DA S                  
+                                50.994.545 0001-39                                        
+07/10/2024         Pix          PIX RECEBIDO - OUTRA IF                             80,00C
+                                Recebimento Pix                                           
+                                FLAVIA FERREIRA AZARIAS DE CARVALHO                       
+                                ***.352.596-**                                            
+07/10/2024      1115608769      CR COMPRAS MAESTRO                                 274,79C
+                                Stone Pagament_Deb._Maestro                               
+07/10/2024      1115608768      CR COMPRAS VISA ELECTRON                           292,01C
+                                Stone Pagament_Deb._Visa Electron                         
+07/10/2024       25772703       DÉB.TIT. COBRANÇA EFETIVADO                       -239,61D
+                                We Care 11874 1/1                                         
+07/10/2024       25696773       DÉB.TIT.COMPE EFETIVADO                            -54,70D
+                                Acia  170512                                              
+07/10/2024       25696745       DÉB.TIT.COMPE EFETIVADO                           -188,54D
+                                Supritec FT  59199/01                                     
+07/10/2024       25696712       DÉB.TIT.COMPE EFETIVADO                           -668,42D
+                                Supriseg FT 57380/03                                      
+07/10/2024       25696652       DÉB.TIT.COMPE EFETIVADO                           -215,04D
+                                Modesto  1010575402                                       
+07/10/2024       25696623       DÉB.TIT.COMPE EFETIVADO                         -2.046,44D
+                                Supritec TM  12159/01                                     
+                                SALDO DO DIA                                   256.649,45C
+04/10/2024       2185565        TARIFA COBRANÇA                                    -16,56D
+04/10/2024       2184663        CRÉD.LIQUIDAÇÃO COBRANÇA                        12.393,36C
+04/10/2024         Pix          PIX EMITIDO OUTRA IF                            -1.000,00D
+                                Pagamento Pix                                             
+                                ***.861.086-**                                            
+                                Sal JULIA                                                 
+04/10/2024         Pix          PIX RECEBIDO - OUTRA IF                            130,00C
+                                Recebimento Pix                                           
+                                CARLOS ANTONIO DE CARVALHO                                
+                                ***.651.846-**                                            
+                                visita tecnica                                            
+04/10/2024         3171         CRED.TRANSF.CONTAS INTERCREDIS                     150,00C
+                                REM.: CONDOMINIO EDIFICIO VERA CRUZ                       
+                                Transferência Pix                                         
+                                CONDOMINIO EDIFICIO VERA CRUZ                             
+                                19.095.124 0001-26                                        
+                                Portao eletronico                                         
+04/10/2024         Pix          PIX RECEBIDO - OUTRA IF                          1.100,00C
+                                Recebimento Pix                                           
+                                CONDOMINIO EDIFICIO MIRASSOL                              
+                                15.467.340 0001-02                                        
+                                OFFS428738281669815780890                                 
+04/10/2024         Pix          PIX EMITIDO OUTRA IF                               -80,00D
+                                Pagamento Pix                                             
+                                ***.569.386-**                                            
+                                Limpeza monitoramento                                     
+04/10/2024      1114572445      CR COMPRAS MASTERCARD                               58,13C
+                                Stone Pagament_Cred._Mastercard                           
+04/10/2024       25696601       DÉB.TIT.COMPE EFETIVADO                           -971,68D
+                                Supritec FT 59008/02                                      
+04/10/2024       25696303       DÉB.TIT.COMPE EFETIVADO                           -502,36D
+                                Supritec FT 55618/4                                       
+                                SALDO DO DIA                                   257.319,06C
+03/10/2024       2183504        TARIFA COBRANÇA                                    -18,79D
+03/10/2024       2182606        CRÉD.LIQUIDAÇÃO COBRANÇA                         1.334,33C
+03/10/2024         Pix          PIX RECEBIDO - OUTRA IF                            100,00C
+                                Recebimento Pix                                           
+                                MAYARA FERREIRA SANTOS                                    
+                                ***.740.426-**                                            
+03/10/2024         Pix          PIX EMITIDO OUTRA IF                              -111,00D
+                                Pagamento Pix                                             
+                                ***.709.506-**                                            
+03/10/2024         Pix          PIX EMITIDO OUTRA IF                            -1.860,00D
+                                Pagamento Pix                                             
+                                19.629.488 0001-49                                        
+                                Manuel moto vermelha                                      
+03/10/2024      30              SAQUE NA AGENCIA                                -1.500,00D
+03/10/2024      29              SAQUE NA AGENCIA                                -1.300,00D
+03/10/2024      28              SAQUE NA AGENCIA                                -1.250,00D
+03/10/2024         Pix          PIX EMITIDO OUTRA IF                            -1.641,09D
+                                Pagamento Pix                                             
+                                ***.592.096-**                                            
+                                Salario Joao Gabriel                                      
+03/10/2024         Pix          PIX EMITIDO OUTRA IF                              -139,52D
+                                Pagamento Pix                                             
+                                ***.183.916-**                                            
+                                Salario William                                           
+03/10/2024      1314537075      DÉB.TRANSF.POUPANÇA-INTERCREDIS                 -1.385,39D
+                                3125 - 631397329                                          
+                                WAINE RODRIGO DA SILVA                                    
+03/10/2024         Pix          PIX EMITIDO OUTRA IF                               -55,60D
+                                Pagamento Pix                                             
+                                ***.812.616-**                                            
+                                Salario Thayla                                            
+03/10/2024         Pix          PIX EMITIDO OUTRA IF                            -1.137,71D
+                                Pagamento Pix                                             
+                                ***.870.766-**                                            
+                                Salario Tamires                                           
+03/10/2024         Pix          PIX EMITIDO OUTRA IF                            -1.680,61D
+                                Pagamento Pix                                             
+                                ***.303.316-**                                            
+                                Salario Rodrigo                                           
+03/10/2024         Pix          PIX EMITIDO OUTRA IF                              -700,15D
+                                Pagamento Pix                                             
+                                ***.813.596-**                                            
+                                Salario Raone                                             
+03/10/2024         Pix          PIX EMITIDO OUTRA IF                              -976,14D
+                                Pagamento Pix                                             
+                                ***.400.666-**                                            
+                                Salario Mariana                                           
+03/10/2024         Pix          PIX EMITIDO OUTRA IF                            -1.100,20D
+                                Pagamento Pix                                             
+                                ***.440.696-**                                            
+                                Salario Luiz Guilherme                                    
+03/10/2024         Pix          PIX EMITIDO OUTRA IF                            -1.400,61D
+                                Pagamento Pix                                             
+                                ***.269.576-**                                            
+                                Salario Lucas Goulart                                     
+03/10/2024         Pix          PIX EMITIDO OUTRA IF                            -2.900,00D
+                                Pagamento Pix                                             
+                                ***.368.336-**                                            
+                                Salario Lucas A                                           
+03/10/2024         Pix          PIX EMITIDO OUTRA IF                            -1.394,74D
+                                Pagamento Pix                                             
+                                ***.501.516-**                                            
+                                Salario Josiel                                            
+03/10/2024         Pix          PIX EMITIDO OUTRA IF                            -1.296,86D
+                                Pagamento Pix                                             
+                                ***.256.816-**                                            
+                                Salario Joao Victor                                       
+03/10/2024         Pix          PIX EMITIDO OUTRA IF                            -1.721,54D
+                                Pagamento Pix                                             
+                                ***.019.398-**                                            
+                                Salario Jeverson                                          
+03/10/2024         Pix          PIX EMITIDO OUTRA IF                            -1.700,00D
+                                Pagamento Pix                                             
+                                ***.429.246-**                                            
+                                Salario Erickson                                          
+03/10/2024         Pix          PIX EMITIDO OUTRA IF                            -1.417,05D
+                                Pagamento Pix                                             
+                                ***.200.756-**                                            
+                                Salario Daniele                                           
+03/10/2024         Pix          PIX EMITIDO OUTRA IF                            -1.100,03D
+                                Pagamento Pix                                             
+                                ***.156.451-**                                            
+                                Salario Beatriz                                           
+03/10/2024         Pix          PIX EMITIDO OUTRA IF                            -1.326,32D
+                                Pagamento Pix                                             
+                                ***.056.356-**                                            
+                                Salario Almir                                             
+03/10/2024         Pix          PIX EMITIDO OUTRA IF                            -1.406,70D
+                                Pagamento Pix                                             
+                                ***.138.028-**                                            
+                                Salario Alison                                            
+03/10/2024      MASTERCARD      DÉB.CONV.DEMAIS EMPRESAS                        -4.144,13D
+03/10/2024       25696277       DÉB.TIT.COMPE EFETIVADO                           -464,03D
+                                Modesto  0006289757                                       
+03/10/2024       25696256       DÉB.TIT.COMPE EFETIVADO                           -169,30D
+                                Alpha Abras 174517-01                                     
+                                SALDO DO DIA                                   246.058,17C
+02/10/2024       2181444        TARIFA COBRANÇA                                    -33,79D
+02/10/2024       2180556        CRÉD.LIQUIDAÇÃO COBRANÇA                         5.978,28C
+02/10/2024         211          DÉB. EMISSÃO CARTÃO SALÁRIO                        -30,00D
+02/10/2024         Pix          PIX RECEBIDO - OUTRA IF                            500,00C
+                                Recebimento Pix                                           
+                                ROSEMEIRE DE MATOS SILVEIRA                               
+                                ***.686.416-**                                            
+02/10/2024         Pix          PIX RECEBIDO - OUTRA IF                            450,00C
+                                Recebimento Pix                                           
+                                VANICE REIS PIZZO FONSECA                                 
+                                ***.250.858-**                                            
+02/10/2024         Pix          PIX RECEBIDO - OUTRA IF                             60,00C
+                                Recebimento Pix                                           
+                                DIRCE MOREIRA ROSSI ANDRADE                               
+                                ***.238.476-**                                            
+02/10/2024      1113167402      CR COMPRAS VISA                                     77,51C
+                                Stone Pagament_Cred._Visa                                 
+02/10/2024      1113167401      CR COMPRAS CRE OUTRAS BANDEIRAS                    154,42C
+                                Stone Pagament_Cred._Elo                                  
+02/10/2024      1113463106      CR COMPRAS MAESTRO                                  49,07C
+                                Stone Pagament_Deb._Maestro                               
+02/10/2024      1113463105      CR COMPRAS VISA ELECTRON                            58,88C
+                                Stone Pagament_Deb._Visa Electron                         
+02/10/2024       25696218       DÉB.TIT.COMPE EFETIVADO                           -640,00D
+                                Supritec FT 55420/4                                       
+02/10/2024       25696200       DÉB.TIT.COMPE EFETIVADO                           -191,72D
+                                Modesto 1010514803                                        
+                                SALDO DO DIA                                   279.921,35C
+01/10/2024       2179311        TARIFA COBRANÇA                                    -37,80D
+01/10/2024       2178234        CRÉD.LIQUIDAÇÃO COBRANÇA                        11.685,44C
+01/10/2024         Pix          PIX EMITIDO OUTRA IF                            -2.791,00D
+                                Pagamento Pix                                             
+                                ***.501.516-**                                            
+                                Ferias Josiel                                             
+01/10/2024         Pix          PIX RECEBIDO - OUTRA IF                             50,00C
+                                Recebimento Pix                                           
+                                MARCO ANTONIO PIZA                                        
+                                ***.038.326-**                                            
+01/10/2024         Pix          PIX RECEBIDO - OUTRA IF                             80,00C
+                                Recebimento Pix                                           
+                                ARTUR CORDON DIAS                                         
+                                ***.190.338-**                                            
+01/10/2024         Pix          PIX RECEBIDO - OUTRA IF                             85,00C
+                                Recebimento Pix                                           
+                                Anderson Franco Dos Reis                                  
+                                ***.274.776-**                                            
+                                FAETECNOLOGIA                                             
+01/10/2024         Pix          PIX RECEBIDO - OUTRA IF                             80,00C
+                                Recebimento Pix                                           
+                                RAFAELA DO NASCIMENTO SOUZA                               
+                                ***.669.886-**                                            
+                                Controle garagem R. Argentina 433 apt 51                  
+                                A                                                         
+01/10/2024         Pix          PIX RECEBIDO - OUTRA IF                             85,00C
+                                Recebimento Pix                                           
+                                EDUARDO VITI AGOSTINHO                                    
+                                ***.214.406-**                                            
+01/10/2024         Pix          PIX RECEBIDO - OUTRA IF                             90,00C
+                                Recebimento Pix                                           
+                                WALESKA CAMACHO                                           
+                                ***.784.086-**                                            
+01/10/2024         Pix          PIX RECEBIDO - OUTRA IF                          1.800,00C
+                                Recebimento Pix                                           
+                                TRANS ALCOOL TRANSPORTES RODOVIARIOS LTD                  
+                                07.575.019 0001-05                                        
+                                OFFS428738281669815780890                                 
+01/10/2024         Pix          PIX EMITIDO OUTRA IF                              -180,00D
+                                Pagamento Pix                                             
+                                ***.183.916-**                                            
+                                Vale transporte William                                   
+01/10/2024      1312932798      DÉB.TRANSF.POUPANÇA-INTERCREDIS                   -276,00D
+                                3125 - 631397329                                          
+                                WAINE RODRIGO DA SILVA                                    
+01/10/2024         Pix          PIX EMITIDO OUTRA IF                              -312,00D
+                                Pagamento Pix                                             
+                                ***.812.616-**                                            
+                                Vale transporte Thayla                                    
+01/10/2024         Pix          PIX EMITIDO OUTRA IF                              -180,00D
+                                Pagamento Pix                                             
+                                ***.870.766-**                                            
+                                Vale transporte Tamires                                   
+01/10/2024         Pix          PIX EMITIDO OUTRA IF                              -180,00D
+                                Pagamento Pix                                             
+                                ***.303.316-**                                            
+                                Vale transporte Rodrigo                                   
+01/10/2024         Pix          PIX EMITIDO OUTRA IF                              -160,00D
+                                Pagamento Pix                                             
+                                ***.813.596-**                                            
+                                Vale transporte Raone                                     
+01/10/2024         Pix          PIX EMITIDO OUTRA IF                              -180,00D
+                                Pagamento Pix                                             
+                                ***.440.696-**                                            
+                                Vale transporte Luis Guilherme                            
+01/10/2024         Pix          PIX EMITIDO OUTRA IF                              -312,00D
+                                Pagamento Pix                                             
+                                ***.269.576-**                                            
+                                Vales transporte Lucas Goulart                            
+01/10/2024         Pix          PIX EMITIDO OUTRA IF                              -180,00D
+                                Pagamento Pix                                             
+                                ***.861.086-**                                            
+                                Vale transporte Julia                                     
+01/10/2024         Pix          PIX EMITIDO OUTRA IF                              -180,00D
+                                Pagamento Pix                                             
+                                ***.501.516-**                                            
+                                Vale transporte Josiel                                    
+01/10/2024         Pix          PIX EMITIDO OUTRA IF                              -192,00D
+                                Pagamento Pix                                             
+                                ***.256.816-**                                            
+                                Vale transporte Joao Victor                               
+01/10/2024         Pix          PIX EMITIDO OUTRA IF                              -312,00D
+                                Pagamento Pix                                             
+                                ***.200.756-**                                            
+                                Vale transporte Dani                                      
+01/10/2024         Pix          PIX EMITIDO OUTRA IF                              -192,00D
+                                Pagamento Pix                                             
+                                ***.056.356-**                                            
+                                Vale transporte Almir                                     
+01/10/2024         Pix          PIX RECEBIDO - OUTRA IF                          2.037,00C
+                                Recebimento Pix                                           
+                                MINAS SUL TRANSPORTES LTDA                                
+                                01.618.978 0001-84                                        
+01/10/2024       25696181       DÉB.TIT.COMPE EFETIVADO                         -1.863,16D
+                                Supriseg FT 57164/03                                      
+01/10/2024       25696153       DÉB.TIT.COMPE EFETIVADO                         -1.425,00D
+                                Minas System  6512/02                                     
+01/10/2024       25696069       DÉB.CONV.EN.ELÉTRICA E GÁS                      -1.014,93D
+                                DME monitoramento                                         
+01/10/2024       25696049       DÉB.TIT.COMPE EFETIVADO                           -149,80D
+                                Losango mensal 1024/0001                                  
+                                SALDO DO DIA                                   273.488,70C
+30/09/2024                      SALDO BLOQUEADO ANTERIOR                             0,00C
+30/09/2024                      SALDO ANTERIOR                                 267.613,95C
+------------------------------------------------------------------------------------------
+                                          RESUMO                                          
+------------------------------------------------------------------------------------------
+SALDO EM CONTA CORRENTE(+)................................................:    282.185,69C
+SALDO EM CONTA INVESTIMENTO(+)............................................:          0,00C
+LIMITE CHEQUE ESPECIAL EMPRESARIAL (+)....................................:          0,00C
+SALDO DISPONÍVEL(=).......................................................:    282.185,69C
+SALDO BLOQUEADO EM CONTA CORRENTE.........................................:          0,00C
+SALDO BLOQUEADO EM CONTA INVESTIMENTO.....................................:          0,00C
+Taxa cheque especial empresarial (a.m.)...................................:          4,65%
+PREVISÃO CPMF.............................................................:          0,00D
+PREVISÃO IOF..............................................................:          0,00D
+PREVISÃO ENCARGOS.........................................................:          0,00D
+PREVISÃO TARIFAS..........................................................:          0,00D
+SALDO EM CONTA CAPITAL....................................................:      7.945,30C
+------------------------------------------------------------------------------------------
+                              Limites de Crédito Disponíveis                              
+------------------------------------------------------------------------------------------
+         Acesse o menu Crédito para consulta dos limites de crédito disponíveis.          
+------------------------------------------------------------------------------------------
+                                     EXTRATO No.:013                                      
+------------------------------------------------------------------------------------------
+SAC: 0800 724 4420 / OUVIDORIA SICOOB: 08007250996                                        

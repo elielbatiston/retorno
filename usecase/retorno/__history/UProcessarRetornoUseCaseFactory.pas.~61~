@@ -1,0 +1,53 @@
+unit UProcessarRetornoUseCaseFactory;
+
+interface
+
+uses Classes, UProcessarRetornoUseCase;
+
+type
+  TProcessarRetornoUseCaseFactory = class
+  private
+    class var FUseCases : TList;
+    class procedure Prepare;
+    class function RetornaProcessador(dado: string): IProcessarRetornoUseCase;
+  public
+    class function Instantiate(dado: string): IProcessarRetornoUseCase;
+  end;
+
+implementation
+
+uses UProcessarRetornoSicoobUseCase;
+
+class function TProcessarRetornoUseCaseFactory.Instantiate(dado: string): IProcessarRetornoUseCase;
+begin
+    Prepare();
+    Result := RetornaProcessador(dado);
+end;
+
+class procedure TProcessarRetornoUseCaseFactory.Prepare;
+begin
+  if not Assigned(FUseCases) then
+    FUseCases := TList.Create;
+
+  FUseCases.Add(TProcessarRetornoSicoobUseCase.Create);
+end;
+
+class function TProcessarRetornoUseCaseFactory.RetornaProcessador(dado: string): IProcessarRetornoUseCase;
+var
+  usecase: IProcessarRetornoUseCase;
+  obj: TObject;
+begin
+  Result := nil;
+   for obj in FUseCases do
+  begin
+    // Convertendo o objeto para a interface correta
+    if (obj is IProcessarRetornoUseCase) then
+    begin
+      usecase := IProcessarRetornoUseCase(obj);
+      if usecase.isIt(dado) then
+        Result := usecase;
+    end;
+  end;
+end;
+
+end.

@@ -1,0 +1,10 @@
+unit UBancosAceitos;
+
+interface
+
+type
+  TBancosAceitos = ('756');
+
+implementation
+
+end.

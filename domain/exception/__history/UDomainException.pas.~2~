@@ -1,0 +1,14 @@
+unit UDomainException;
+
+interface
+
+type
+  EDomainException = class(Exception)
+  public
+    constructor Create(const Msg: string); reintroduce;
+  end;
+
+
+implementation
+
+end.

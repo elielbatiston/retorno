@@ -1,0 +1,166 @@
+unit UFuncoes;
+
+interface
+
+uses    Messages, Buttons, Grids, ExtCtrls, DBCtrls, Sysutils, dialogs, Windows, Graphics, forms, Registry, ShellApi, FileCtrl, IniFiles, dbiProcs, classes, stdctrls,
+        WinSock, typInfo, DBGrids, Controls, ComCtrls, Printers, DB, DBTables, ADODB, CheckLst, Jpeg, Math, ShlObj, ActiveX, ComObj, PSApi, TLHelp32;
+
+function Empty(inString:String): Boolean;
+function IniSetingStr(mArquivo, mChave, mTexto, mFlag:String):String;
+function IniSetingInt(mArquivo, mChave, mTexto:String; mFlag:Integer):Integer;
+procedure AddInisetingInLogSql(mTexto, mInfo:string; mStatus:integer);
+function FileReadOnly(const FileName:String):boolean;
+function Encrypt( Senha, chave:String ): String;
+function TemTexto(mTemTextoPeq,mTemTextoGrande:String):Boolean;
+function StrZero(Zeros:string;Quant:integer):String;
+function ValInt(mValStr:String):Integer;
+function ValIntToStr(text: string): string;
+function Alltrim(const Search: string): string;
+Function ECFtoNum(mNumECF:String; mNumDec:Integer):Real;
+
+implementation
+
+function Empty(inString:String): Boolean;
+Var     index : Byte;
+Begin
+        index := 1;
+        Empty := True;
+        while (index <= Length(inString))and (index <> 0) do begin
+                if inString[index] = ' ' Then inc(index)
+                else Begin
+	                Empty := False;
+	                index := 0
+	        end;
+        end;
+end;
+
+Function IniSetingInt(mArquivo, mChave, mTexto:String; mFlag:Integer):Integer;
+var
+        IniFile: TIniFile;
+Begin
+        Result := mFlag;
+        IniFile := TIniFile.Create(mArquivo);
+
+        if (mFlag = -1) then begin
+                Result := IniFile.ReadInteger(mChave,mTexto, 0);
+
+                AddInisetingInLogSql(mTexto, IntToStr(result), 999);
+        end
+        else if (not FileReadOnly(mArquivo)) then begin
+                IniFile.WriteInteger(mChave,mTexto, mFlag);
+        end;
+
+        IniFile.Destroy;
+End;
+
+Function IniSetingStr(mArquivo, mChave, mTexto, mFlag:String):String;
+var
+        IniFile: TIniFile;
+        mResult: String;
+Begin
+        //Result  := mflag;
+        Result  := '';
+        IniFile := TIniFile.Create(mArquivo);
+
+        if (mFlag = '-1') then begin
+                Result := IniFile.ReadString(mChave,mTexto, ' ');
+                        
+                AddInisetingInLogSql(mTexto, Result, 999);
+        end
+        else if NOT FileReadOnly(mArquivo) then begin
+                IniFile.WriteString(mChave,mTexto, mFlag);
+        end;
+        //Else IniFile.WriteString(mChave,mTexto, mFlag);
+        IniFile.Destroy;
+End;
+
+procedure AddInisetingInLogSql(mTexto, mInfo:string; mStatus:integer);
+begin
+        {If FileExists(mPastaLog + 'log.sql') then case mStatus of
+                0: AdereTxt('>>>>>>>>>> '+DateTimeToStr(now)+' '+mInfo+' <<<<<<<<<<', mPastaLog + 'log.sql');
+              999: AdereTxt('> '+mTexto+'='+mInfo, mPastaLog + 'log.sql');
+        end;}
+end;
+
+function FileReadOnly(const FileName:String):boolean;
+var     Attributes:DWord; xarq:string;
+begin
+        result:=false;
+        //xarq:=ValidaArquivoIni(FileName);
+        //Attributes:=GetFileAttributes(PChar(xarq));
+        //if FileExists(xarq) then result:=((Attributes and FILE_ATTRIBUTE_READONLY)>0);
+end;
+
+function Encrypt( Senha, chave:String ): String;
+Var     x,y : Integer; NovaSenha : String;
+begin
+        for x := 1 to Length( Chave ) do begin
+                NovaSenha := '';
+                for y := 1 to Length( Senha ) do
+                        NovaSenha := NovaSenha + chr( (Ord(Chave[x]) xor Ord(Senha[y])));
+                Senha := NovaSenha;
+        end;
+        result := Senha;
+end;
+
+function TemTexto(mTemTextoPeq,mTemTextoGrande:String):Boolean;
+var     mTemTextoCont:Integer;
+Begin
+        Result:=False;
+        For mTemTextoCont:=1 to Length(mTemTextoGrande)-Length(mTemTextoPeq)+2 do begin
+                If Copy(mTemTextoGrande,mTemTextoCont-1,Length(mTemTextoPeq))=mTemTextoPeq then begin
+                        Result:=True;
+                        Break;
+                End;
+        end;
+end;
+
+function StrZero(Zeros:string;Quant:integer):String;
+var     I,Tamanho:integer; aux: string;
+begin
+        aux := zeros;
+        Tamanho := length(ZEROS);
+        ZEROS:='';
+        for I:=1 to quant-tamanho do ZEROS:=ZEROS + '0';
+        aux := zeros + aux;
+        StrZero := aux;
+end;
+
+function ValIntToStr(text: string): string;
+begin
+        Result := inttoStr(valInt(text));
+end;
+
+Function ValInt(mValStr:String):Integer;
+var     mConv:Real;
+Begin
+        Result:=0;
+        if not empty(mValStr) then begin
+                Try
+                        mConv:=StrToFloat(Alltrim(mValStr));
+                        result:=StrToInt(FloatToStr(Int(mconv)));
+                except
+                        on EConvertError do Result:=0;
+                end;
+        end;
+end;
+
+function Alltrim(const Search: string): string;
+const   BlackSpace = [#33..#126];
+var     Index: byte;
+begin
+        Index:=1;
+        while (Index <= Length(Search)) and not (Search[Index] in BlackSpace) do Index:=Index + 1;
+        Result:=Copy(Search, Index, 255);
+        Index := Length(Result);
+        while (Index > 0) and not (Result[Index] in BlackSpace) do Index:=Index - 1;
+        Result := Copy(Result, 1, Index);
+end;
+
+Function ECFtoNum(mNumECF:String; mNumDec:Integer):Real;
+Begin
+        Result:=Val(Copy(mNumECF,1,Length(mNumECF)-mNumDec)+DecimalSeparator+Right(mNumECF, mNumDec));
+end;
+
+
+end.

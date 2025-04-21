@@ -1,0 +1,23 @@
+unit UImportarArquivoRemessaUseCase;
+
+interface
+
+uses UInputImportarArquivoRemessaDTO;
+
+type
+  ImportarArquivoRemessaUseCase = class
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+    procedure execute(input: InputImportarArquivoRemessaDTO);
+  end;
+
+implementation
+
+procedure ImportarArquivoRemessaUseCase.execute(input: InputImportarArquivoRemessaDTO);
+begin
+
+end;
+
+end.

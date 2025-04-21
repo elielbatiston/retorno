@@ -1,0 +1,24 @@
+unit UImportarArquivoRemessaUseCase;
+
+interface
+
+uses Strings, UInputImportarArquivoRemessaDTO;
+
+type
+  ImportarArquivoRemessaUseCase = class
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+    procedure execute(input: InputImportarArquivoRemessaDTO);
+  end;
+
+implementation
+
+procedure ImportarArquivoRemessaUseCase.execute(input: InputImportarArquivoRemessaDTO);
+begin
+  if Empty(input.getFilePath()) then
+
+end;
+
+end.

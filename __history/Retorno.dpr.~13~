@@ -1,0 +1,33 @@
+program Retorno;
+
+uses
+  Forms,
+  UPrincipal in 'frontend\UPrincipal.pas' {frmPrincipal},
+  UInputImportarArquivoRetornoDTO in 'usecase\retorno\UInputImportarArquivoRetornoDTO.pas',
+  URetornoSicoobGateway in 'gasteways\retorno\sicoob\URetornoSicoobGateway.pas',
+  UDomainException in 'domain\exception\UDomainException.pas',
+  URetornoGateway in 'domain\URetornoGateway.pas',
+  UImportarArquivoRetornoUseCase in 'usecase\retorno\UImportarArquivoRetornoUseCase.pas',
+  URetornoGatewayFactory in 'gasteways\retorno\URetornoGatewayFactory.pas',
+  UDataModule in 'frontend\UDataModule.pas' {DM: TDataModule},
+  UFuncoes in 'uteis\UFuncoes.pas',
+  UFuncoesMySQL in 'uteis\UFuncoesMySQL.pas';
+
+{$R *.res}
+
+begin
+  try
+    Application.Initialize;
+    Application.MainFormOnTaskbar := True;
+    Application.CreateForm(TDM, DM);
+  //if (DM.connection.Connected) then begin
+      Application.Title := 'Leitor de arquivo CNAB';
+      Application.CreateForm(TfrmPrincipal, frmPrincipal);
+    //end;
+
+    Application.Run;
+  finally
+    DM.Free;
+    DM := nil;
+  end;
+end.

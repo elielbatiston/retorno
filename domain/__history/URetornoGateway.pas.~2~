@@ -1,0 +1,12 @@
+unit URetornoGateway;
+
+interface
+
+type
+  IRetornoGateway = interface
+    class procedure Importar(const AFilePath: string);
+  end;
+
+implementation
+
+end.

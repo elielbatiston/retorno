@@ -1,0 +1,41 @@
+unit UProcessarRetornoUseCaseRunner;
+
+interface
+
+uses Classes, UProcessarRetornoUseCase;
+
+type
+  TProcessarRetornoUseCaseRunner = class
+  private
+    FUseCases: TList;
+  public
+    constructor Create;
+    destructor Destroy; override;
+    procedure Execute;
+  end;
+
+implementation
+
+uses UProcessarRetornoSicoobUseCase;
+
+constructor TProcessarRetornoUseCaseRunner.Create;
+begin
+  FUseCases := TList.Create;
+  FUseCases.Add(TProcessarRetornoSicoobUseCase.Create);
+end;
+
+destructor TProcessarRetornoUseCaseRunner.Destroy;
+begin
+  FUseCases.Free;
+  inherited;
+end;
+
+procedure TProcessarRetornoUseCaseRunner.Execute;
+var
+  usecase: IProcessarRetornoUseCase;
+begin
+  for usecase in FUseCases do
+
+end;
+
+end.

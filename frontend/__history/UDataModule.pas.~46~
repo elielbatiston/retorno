@@ -1,0 +1,82 @@
+unit UDataModule;
+
+interface
+
+uses
+  Dialogs, SysUtils, Forms, Classes, DB, ZAbstractTable, ZDataset,
+  ZAbstractRODataset, ZAbstractDataset, ZAbstractConnection, ZTransaction,
+  ZConnection;
+
+type
+  TDM = class(TDataModule)
+    connection: TZConnection;
+    transaction: TZTransaction;
+    procedure DataModuleCreate(Sender: TObject);
+  private
+    { Private declarations }
+    function ConectaBD(): Boolean;
+  public
+    { Public declarations }
+  end;
+
+var
+  DM: TDM;
+
+  mSystemIni, mPastaDados, mPastaLog : string;
+
+implementation
+
+uses UFuncoes, UPrincipal;
+{$R *.dfm}
+
+procedure TDM.DataModuleCreate(Sender: TObject);
+begin
+  mSystemIni := ParamStr(1);
+
+  if(Empty(mSystemIni))then mSystemIni := 'System.ini';
+
+  mPastaDados := IniSetingStr(mSystemIni,'Retorno','PastaDados','-1');
+  if(Empty(mPastaDados))then mPastaDados := ExtractFileDir(ParamStr(0));
+
+  if Copy(mPastaDados, Length(mPastadados) ,1 ) <> '\' then mPastadados := mPastadados + '\';
+
+  mPastaLog := IniSetingStr(mSystemIni,'Retorno','PastaLog','-1');
+  if(Empty(mPastaLog))then mPastaLog := 'c:\';
+
+  if Copy(mPastaLog, Length(mPastaLog) ,1 ) <> '\' then mPastaLog := mPastaLog + '\';
+
+  if(not ConectaBD)then begin
+    Application.Terminate;
+  end;
+end;
+
+function TDM.ConectaBD(): Boolean;
+begin
+  Result := False;
+
+  Try
+    With connection do begin
+      connected := false;
+      HostName  := IniSetingStr(mSystemIni, 'MySQL', 'Servidor', '-1');
+      Database  := IniSetingStr(mSystemIni, 'MySQL', 'Database', '-1');
+      User      := IniSetingStr(mSystemIni, 'MySQL', 'Login', '-1');
+      Password  := Encrypt(IniSetingStr(mSystemIni, 'MySQL', 'Senha', '-1'), 'Jesus');
+      if NOT empty(IniSetingStr(mSystemIni, 'MySQL', 'Porta', '-1')) then begin
+          Port  := IniSetingInt(mSystemIni, 'MySQL', 'Porta', -1);
+      end;
+
+      If not Empty(HostName) then begin
+        Connected:=True;
+      End;
+    end;
+
+    Result := True;
+  Except
+    on E: Exception do begin
+        MessageDlg('Atenção: Erro ao conectar servidor MySQL'+#13+#13+
+                   'Mensagem do servidor: ['+e.message+']', mtError, [mbok], 0);
+    End;
+  End;
+end;
+
+end.

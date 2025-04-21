@@ -1,0 +1,45 @@
+unit UProcessarRetornoUseCaseFactory;
+
+interface
+
+uses Classes, UProcessarRetornoUseCase;
+
+type
+  TProcessarRetornoUseCaseFactory = class
+  private
+    class var FUseCases : TList;
+    class procedure Prepare;
+    class function RetornaProcessador(dado: string): IProcessarRetornoUseCase;
+  public
+    class function Instantiate(dado: string): IProcessarRetornoUseCase;
+  end;
+
+implementation
+
+uses UProcessarRetornoSicoobUseCase;
+
+class function TProcessarRetornoUseCaseFactory.Instantiate(dado: string): IProcessarRetornoUseCase;
+begin
+    Prepare();
+    Result := RetornaProcessador(dado);
+end;
+
+class procedure TProcessarRetornoUseCaseFactory.Prepare;
+begin
+  if not Assigned(FUseCases) then
+    FUseCases := TList.Create;
+
+  FUseCases.Add(TProcessarRetornoSicoobUseCase.Create);
+end;
+
+class function TProcessarRetornoUseCaseFactory.RetornaProcessador(dado: string): IProcessarRetornoUseCase;
+var
+  usecase: IProcessarRetornoUseCase;
+begin
+  Result := nil;
+  for usecase in FUseCases do
+    if usecase.isIt(dado) then
+      Result := usecase;
+end;
+
+end.

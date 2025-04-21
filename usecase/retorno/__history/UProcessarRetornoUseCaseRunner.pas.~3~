@@ -1,0 +1,40 @@
+unit UProcessarRetornoUseCaseRunner;
+
+interface
+
+uses Classes, UProcessarRetornoUseCase;
+
+type
+  TProcessarRetornoUseCaseRunner = class
+  private
+    FStrategies: TList;
+  public
+    constructor Create;
+    destructor Destroy; override;
+    procedure Execute;
+  end;
+
+implementation
+
+uses UProcessarRetornoSicoobUseCase;
+
+constructor TProcessarRetornoUseCaseRunner.Create;
+begin
+  FStrategies := TList.Create;
+  FStrategies.Add(TProcessarRetornoSicoobUseCase.Create);
+end;
+
+destructor TProcessarRetornoUseCaseRunner.Destroy;
+begin
+  FStrategies.Free;
+  inherited;
+end;
+
+procedure TProcessarRetornoUseCaseRunner.Execute;
+var
+  strategy: IStrategy;
+begin
+
+end;
+
+end.

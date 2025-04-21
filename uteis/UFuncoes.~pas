@@ -1,0 +1,46 @@
+unit UFuncoes;
+
+interface
+
+function Empty(inString:String): Boolean;
+function IniSetingStr(mArquivo, mChave, mTexto, mFlag:String):String;
+
+implementation
+
+function Empty(inString:String): Boolean;
+Var     index : Byte;
+Begin
+        index := 1;
+        Empty := True;
+        while (index <= Length(inString))and (index <> 0) do begin
+                if inString[index] = ' ' Then inc(index)
+                else Begin
+	                Empty := False;
+	                index := 0
+	        end;
+        end;
+end;
+
+Function IniSetingStr(mArquivo, mChave, mTexto, mFlag:String):String;
+var
+        IniFile: TIniFile;
+        mResult: String;
+Begin
+        //Result  := mflag;
+        Result  := '';
+        IniFile := TIniFile.Create(mArquivo);
+
+        if (mFlag = '-1') then begin
+                Result := IniFile.ReadString(mChave,mTexto, ' ');
+                        
+                AddInisetingInLogSql(mTexto, Result, 999);
+        end
+        else if NOT FileReadOnly(mArquivo) then begin
+                IniFile.WriteString(mChave,mTexto, mFlag);
+        end;
+        //Else IniFile.WriteString(mChave,mTexto, mFlag);
+        IniFile.Destroy;
+End;
+
+
+end.

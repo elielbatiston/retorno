@@ -1,0 +1,101 @@
+unit UProcessarRetornoSicoobUseCase;
+
+interface
+
+uses UInputImportarArquivoRetornoDTO, UProcessarRetornoUseCase, URetorno;
+
+type
+  TProcessarRetornoSicoobUseCase = class(TInterfacedObject, IProcessarRetornoUseCase)
+  private
+    FRetorno : TRetorno;
+    procedure Processar(AInput: TInputImportarArquivoRetornoDTO);
+    procedure ProcessarHeaderArquivo(dado: string);
+    procedure ProcessarRegistroDetalhe(dado: string);
+    procedure ProcessarSegmentoT(dado: string);
+    procedure ProcessarSegmentoU(dado: string);
+  public
+    constructor Create;
+    function isIt(const dado: string): Boolean;
+    procedure Execute(AInput: TInputImportarArquivoRetornoDTO);
+  end;
+
+implementation
+
+uses UFuncoes, UDomainException;
+
+constructor TProcessarRetornoSicoobUseCase.Create;
+begin
+  FRetorno := TRetorno.Create;
+end;
+
+function TProcessarRetornoSicoobUseCase.isIt(const dado: string): Boolean;
+begin
+  Result = Copy(dado,59,12) =
+end;
+
+procedure TProcessarRetornoSicoobUseCase.Execute(AInput: TInputImportarArquivoRetornoDTO);
+var
+  gateway: IProcessarRetornoUseCase;
+begin
+  if Empty(AInput.Dado()) then begin
+    raise TDomainException.Create('Dado informado está em branco');
+  end;
+
+  Processar(AInput);
+end;
+
+procedure TProcessarRetornoSicoobUseCase.Processar(AInput: TInputImportarArquivoRetornoDTO);
+var
+  dado: string;
+  position: integer;
+begin
+  dado := AInput.Dado();
+  position := AInput.Position();
+
+  case position of
+    0: ProcessarHeaderArquivo(dado);
+    1: ;
+    else
+      ProcessarRegistroDetalhe(dado);
+  end;
+end;
+
+procedure TProcessarRetornoSicoobUseCase.ProcessarHeaderArquivo(dado: string);
+begin
+  if (Copy(dado,143,1) = '2')then begin
+    FRetorno.Cedente := Copy(dado,59,12);
+    FRetorno.Agencia := Copy(dado,53,5);
+    FRetorno.DigitoAgencia := Copy(dado,58,1);
+  end else raise TDomainException.Create('Esse arquivo não é um arquivo de retorno válido!');
+end;
+
+procedure TProcessarRetornoSicoobUseCase.ProcessarRegistroDetalhe(dado: string);
+var
+  letra: Char;
+begin
+  letra := Copy(dado,14,1)[1];
+
+  case letra of
+    'T': ProcessarSegmentoT(dado);
+    'U': ProcessarSegmentoU(dado);
+  end;
+end;
+
+procedure TProcessarRetornoSicoobUseCase.ProcessarSegmentoT(dado: string);
+begin
+  FRetorno.NossoNro        := StrZero(ValIntToStr(AllTrim(Copy(dado,38,9))), 6);
+  FRetorno.Documento       := AllTrim(Copy(dado,59,15));
+  FRetorno.ValorTarifa     := ECFtoNum(AllTrim(Copy(dado,199,15)),2);
+  FRetorno.CodigoMovimento := Copy(dado,16,2);
+end;
+
+procedure TProcessarRetornoSicoobUseCase.ProcessarSegmentoU(dado: string);
+begin
+  FRetorno.Acrescimos    := ECFtoNum(AllTrim(Copy(dado,18,15)),2);
+  FRetorno.Descontos     := ECFtoNum(AllTrim(Copy(dado,33,15)),2);
+  FRetorno.ValorPago     := ECFtoNum(AllTrim(Copy(dado,78,15)),2);
+  FRetorno.DataPagamento := FormataDataBoleto(AllTrim(Copy(dado,138,8)));
+  FRetorno.CodNota       := Alltrim(Copy(dado,16,2));
+end;
+
+end.

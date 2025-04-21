@@ -1,0 +1,12 @@
+unit UInputImportarArquivoRemessa;
+
+interface
+
+type
+  InputImportarArquivoRemessa = class
+
+  end;
+
+implementation
+
+end.

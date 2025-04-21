@@ -1,0 +1,37 @@
+unit URetorno;
+
+interface
+
+type
+  TRetorno = class
+  private
+    FCedente: string;
+    FAgencia: string;
+    FDigitoAgencia: string;
+    FNossoNro: string;
+    FDocumento: string;
+    FValorTarifa: real;
+    FCodigoMovimento: string;
+    FAcrescimos: real;
+    FDescontos: real;
+    FValorPago: real;
+    FDataPagamento: TDateTime;
+    FCodNota: string;
+  public
+    property Cedente: string read FCedente write FCedente;
+    property Agencia: string read FAgencia write FAgencia;
+    property DigitoAgencia: string read FDigitoAgencia write FDigitoAgencia;
+    property NossoNro: string read FNossoNro write FNossoNro;
+    property Documento: string read FDocumento write FDocumento;
+    property ValorTarifa: real read FValorTarifa write FValorTarifa;
+    property CodigoMovimento: string read FCodigoMovimento write FCodigoMovimento;
+    property FAcrescimos: real read FCodigoMovimento write FCodigoMovimento;
+    property FDescontos: real read FCodigoMovimento write FCodigoMovimento;
+    property FValorPago: real read FCodigoMovimento write FCodigoMovimento;
+    property FDataPagamento: TDateTime read FCodigoMovimento write FCodigoMovimento;
+    property FCodNota: string read FCodigoMovimento write FCodigoMovimento;
+  end;
+
+implementation
+
+end.

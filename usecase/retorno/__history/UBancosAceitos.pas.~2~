@@ -1,0 +1,10 @@
+unit UBancosAceitos;
+
+interface
+
+type
+  TBancosAceitos = (tcSicoob);
+
+implementation
+
+end.

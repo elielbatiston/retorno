@@ -1,0 +1,28 @@
+unit UImportarArquivoRetornoSicob;
+
+interface
+
+uses Strings, Dialogs, UInputImportarArquivoRetornoDTO, UDomainException;
+
+type
+  ImportarArquivoRetornoSicobUseCase = class
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+    procedure Execute(input: InputImportarArquivoRetornoDTO);
+  end;
+
+implementation
+
+procedure ImportarArquivoRetornoUseCase.Execute(input: InputImportarArquivoRetornoDTO);
+begin
+  if Empty(input.getFilePath()) then begin
+    raise DomainException.Create('Arquivo informado não existe');
+  end;
+
+
+
+end;
+
+end.

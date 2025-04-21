@@ -1,0 +1,15 @@
+unit UProcessarRetornoUseCase;
+
+interface
+
+uses UInputImportarArquivoRetornoDTO;
+
+type
+  IProcessarRetornoUseCase = interface
+    function CanExeute(const dado: string): Boolean;
+    procedure Execute(AInput: TInputImportarArquivoRetornoDTO);
+  end;
+
+implementation
+
+end.

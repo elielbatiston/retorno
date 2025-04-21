@@ -1,0 +1,10 @@
+object DataModule1: TDataModule1
+  OldCreateOrder = False
+  OnCreate = DataModuleCreate
+  Height = 670
+  Width = 1476
+  object connection: TSQLConnection
+    Left = 88
+    Top = 128
+  end
+end

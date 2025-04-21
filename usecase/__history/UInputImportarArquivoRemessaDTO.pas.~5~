@@ -1,0 +1,26 @@
+unit UInputImportarArquivoRemessaDTO;
+
+interface
+
+type
+  InputImportarArquivoRemessaDTO = class
+  private
+    filePath: string;
+  public
+    constructor create(const filePath: string);
+    function GetFilePath: string;
+  end;
+
+implementation
+
+constructor TInputImportarArquivoRemessaDTO.create(const filePath: string);
+begin
+  filePath := filePath;
+end;
+
+function TInputImportarArquivoRemessaDTO.GetFilePath: string;
+begin
+  Result := filePath;
+end;
+
+end.

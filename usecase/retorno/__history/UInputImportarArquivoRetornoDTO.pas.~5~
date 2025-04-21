@@ -1,0 +1,26 @@
+unit UInputImportarArquivoRetornoDTO;
+
+interface
+
+type
+  TInputImportarArquivoRetornoDTO = class
+  private
+    FFilePath: string;
+  public
+    constructor Create(const AFilePath: string);
+    function GetFilePath: string;
+  end;
+
+implementation
+
+constructor TInputImportarArquivoRetornoDTO.Create(const AFilePath: string);
+begin
+  FFilePath := AFilePath;
+end;
+
+function TInputImportarArquivoRetornoDTO.GetFilePath: string;
+begin
+  Result := AFilePath;
+end;
+
+end.

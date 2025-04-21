@@ -1,0 +1,12 @@
+unit UProcessarRetornoUseCase;
+
+interface
+
+type
+  IProcessarRetornoUseCase = interface
+    procedure Importar(const AFilePath: string);
+  end;
+
+implementation
+
+end.
